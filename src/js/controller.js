@@ -141,9 +141,7 @@ const controlPlanList = function(day){
   model.addMealPlan(day)
   mealPlanView.render(model.state.meal)
 };
-const newFeature = (params) => {
-  console.log('wellcome');
-}
+
 const init = function () {
   BookmarksView.addHandlerRender(controlBookmarks);
   ReceipView.addHandlerender(controllRecipe);
@@ -158,14 +156,9 @@ const init = function () {
   receipView.addShoppingList(controlShopping)
   receipView.showMealPlan()
   receipView.addMealPlan(controlPlanList)
-  newFeature()
 };
 init();
 const newfunction = () => {
   console.log('new function');
 }
 newfunction()
-
-//
-
-//

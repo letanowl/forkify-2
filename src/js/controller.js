@@ -158,3 +158,6 @@ const init = function () {
   receipView.addMealPlan(controlPlanList)
 };
 init();
+const newfunction = (params) => {
+  console.log('new function');
+}

@@ -137,7 +137,6 @@ const controlShopping = function(){
   model.addShoppingList(model.state.recipe)
   ShoppingList.render(model.state.recipe.ingredients)
 };
-
 const controlPlanList = function(day){
   model.addMealPlan(day)
   mealPlanView.render(model.state.meal)
